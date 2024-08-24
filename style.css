@@ -610,3 +610,55 @@ top:0;
     position: relative;
     
 }
+@media (max-width:600px) {
+    #page1{
+        height: 60vh;
+        width: 100%;
+        margin-bottom: 6vh;
+        /* background-color: red; */
+    }
+    #page1 #nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2vw 6vw;
+        /* background-color: blue; */
+    }
+    #nav-part2{
+        display:flex ;
+        align-items: center;
+        justify-content: center;
+        gap: 2.8vw;
+        /* background-color: green; */
+    }
+    #nav-part2 h4{
+        font-size:0.9vw ;
+        font-weight: 500;
+    }
+    .hero{
+        /* background-color: red; */
+        width: 72%;
+        margin-left: 7%;
+        height: fit-content;
+    }
+    .hero:nth-child(2){
+        margin-top: 20vh;
+    }
+    .hero h1{
+        font-size: 10vw;
+        text-transform: uppercase;
+        line-height: 10vw;
+        position: relative;
+        /* background-color: blue; */
+    }
+    #hero1::before{
+        font-size: 6vw;
+        left: 7%;
+        top: 34%;
+    }
+    .hero h2{
+        font-size: 9vw;
+        text-transform: uppercase;
+        line-height: 9vw;
+    }
+}
